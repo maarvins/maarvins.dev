@@ -1,6 +1,6 @@
-:root{
-  --black:#000,
-  --white:#fff,
+:root {
+  --black: #000;
+  --white: #fff;
 }
 
 body {
@@ -19,3 +19,11 @@ body {
   min-height: 100%;
 }
 
+.menu-header {
+  display: block;
+  position: fixed;
+  width: 100%;
+  clear: none;
+  background-color: var(--black);
+  flex-direction: column;
+}
