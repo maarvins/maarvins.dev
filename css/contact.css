@@ -1,0 +1,169 @@
+:root {
+  --black: #000;
+  --dark: #060606;
+  --white: #fff;
+  --gold: #f0860c;
+  --grey: #ccc;
+  --ice: #ffffe5e5;
+  --black-light: #1b1b1b;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--black);
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQEBfsxp2_XFKQ/profile-displayphoto-shrink_800_800/0/1590007097428?e=1641427200&v=beta&t=xEuqmdsm0yM2bAncH9yq9sxIV1q5HYcpiuCiVdCWhgU);
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.nav-menu-header {
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  color: var(--white);
+}
+
+.nav-link {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  flex: 0 auto;
+  padding: 15px 40px 15px 0;
+  margin: 0 55px;
+  float: none;
+  letter-spacing: 0.02em;
+  vertical-align: top;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: var(--gold);
+}
+
+.nav-link-contact {
+  flex: 1;
+  left: auto;
+  padding-right: 0;
+  text-align: right;
+  float: right;
+  max-width: 805;
+}
+
+.link {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.menu-header {
+  display: block;
+  width: 100%;
+  clear: none;
+  background-color: var(--dark);
+  flex-direction: column;
+}
+
+.main-container-contact {
+  padding-top: 15%;
+  margin-top: 0;
+  padding: 120px 45% 80px 100px;
+  background-image: none;
+  flex-direction: column;
+  justify-content: center;
+  display: block;
+  align-items: center;
+}
+
+.paragraph {
+  margin-top: 25px;
+  color: var(--grey);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+#email-form {
+  margin-top: 0em;
+}
+
+.form-contact {
+  color: var(--white);
+  margin: 30px 0 15px;
+}
+
+.label-form {
+  font-weight: 400;
+  margin-bottom: 5px;
+  cursor: default;
+}
+
+.input-form {
+  background-color: var(--black-light);
+  max-width: 650px;
+  border-style: none;
+  border-width: 1px;
+  border-color: var(--ice);
+  border-radius: 10px;
+  color: var(--white);
+  width: 100%;
+  height: 38px;
+  padding: 0 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  vertical-align: middle;
+  border: 1px solid var(--grey);
+}
+
+.form-data-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form-msg {
+  min-height: 128px;
+  height: auto;
+}
+
+.form-submit {
+  background-color: var(--black-light);
+  min-height: 48px;
+  min-width: 118px;
+  margin-top: 10px;
+  border-radius: 12px;
+  color: var(--gold);
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding: 9px 15px;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  width: 118px;
+}

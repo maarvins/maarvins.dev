@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
     <title>Contact</title>
   </head>
   <body>
@@ -16,6 +16,54 @@
         <a href="/writing.html" class="nav-link">Writing</a>
         <a href="/contact.html" class="nav-link nav-link-contact">Contact</a>
       </nav>
+    </div>
+    <div class="main-container-contact">
+      <h1 class="title">Let's talk.</h1>
+      <p class="paragraph">
+        Get in touch via the form below, or by emailing
+        <a
+          href="mailto:maarvins.dev@gmail.com?subject=Hello, my friend!"
+          class="link"
+          >maarvins.dev@gmail.com.</a
+        >
+      </p>
+      <div class="form-contact">
+        <form id="email-form">
+          <div class="form-data-input">
+            <label class="label-form">Name:</label>
+            <input
+              type="text"
+              maxlength="256"
+              class="input-form"
+              placeholder=" Enter your name"
+              required
+            />
+          </div>
+          <div class="form-data-input">
+            <label class="label-form">Email Address:</label>
+            <input
+              class="input-form"
+              placeholder=" Enter your email address"
+              maxlength="256"
+              required
+            />
+          </div>
+          <div class="form-data-input">
+            <label class="label-form">Message:</label>
+            <textarea
+              class="input-form input-form-msg"
+              placeholder=" Enter your message"
+              maxlength="4000"
+            ></textarea>
+            <input
+              type="submit"
+              value="Submit"
+              data-wait="Please, wait..."
+              class="form-submit"
+            />
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
