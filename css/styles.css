@@ -22,7 +22,7 @@ body {
   min-height: 100%;
 }
 
-/*NAVBAR SECTION*/
+/*NAVBAR HOME SECTION*/
 
 .menu-header {
   display: block;
@@ -75,7 +75,7 @@ body {
   max-width: 805;
 }
 
-/*MAIN SECTION */
+/*MAIN HOME SECTION */
 
 .main-container-home {
   padding-top: 15%;
@@ -145,4 +145,33 @@ h1 {
 .link {
   color: var(--gold);
   text-decoration: none;
+}
+
+/*HEADER ABOUT SECTION*/
+.menu-header-about {
+  display: block;
+  width: 100%;
+  clear: none;
+  background-color: var(--dark);
+  flex-direction: column;
+}
+
+.main-container-about {
+  padding-top: 15%;
+  margin-top: 0;
+  padding: 120px 45% 80px 100px;
+  background-image: none;
+  flex-direction: column;
+  justify-content: center;
+  display: block;
+  align-items: center;
+}
+
+.paragraph {
+  margin-top: 25px;
+  color: var(--grey);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-bottom: 0;
 }
