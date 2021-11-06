@@ -28,7 +28,11 @@
         >
       </p>
       <div class="form-contact">
-        <form id="email-form">
+        <form
+          id="email-form"
+          method="post"
+          action="mailto:maarvins.dev@gmail.com?subject=Hello, my friend!"
+        >
           <div class="form-data-input">
             <label class="label-form">Name:</label>
             <input
@@ -51,9 +55,11 @@
           <div class="form-data-input">
             <label class="label-form">Message:</label>
             <textarea
+              type="text"
               class="input-form input-form-msg"
               placeholder=" Enter your message"
               maxlength="4000"
+              required
             ></textarea>
             <input
               type="submit"

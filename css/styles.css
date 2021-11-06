@@ -9,9 +9,8 @@
 body {
   color: var(--white);
   background-color: var(--black);
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQEBfsxp2_XFKQ/profile-displayphoto-shrink_800_800/0/1590007097428?e=1641427200&v=beta&t=xEuqmdsm0yM2bAncH9yq9sxIV1q5HYcpiuCiVdCWhgU);
-  background-position: 50% 0;
-  background-position-x: left;
+  background-image: url(/assets/marcus.png);
+  background-position: 100% 30%;
   background-size: 2400px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -94,6 +93,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   position: static;
+  opacity: 1;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
 }
 
 .content-title-home {
